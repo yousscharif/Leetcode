@@ -24,7 +24,7 @@ public:
     bool checkTree(TreeNode* root) {
         int leftValue = root-> left -> val;
         int rightValue = root->right->val;
-        int rootVal = root->val;
-        return rootVal == leftVal + rightVal;
+        int rootValue = root->val;
+        return rootValue == leftValue + rightValue;
     }
 };
